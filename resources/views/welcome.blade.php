@@ -47,7 +47,7 @@
                 @if (version_compare(PHP_VERSION, '5.5.9', '>='))
                     <p>Your version of PHP is 5.5.9 or higher.</p>
                 @else
-                    <p class="problem">Your version of PHP is too low. You need PHP 5.5.9 or higher to use CakePHP.</p>
+                    <p class="problem">Your version of PHP is too low. You need PHP 5.5.9 or higher to use Laravel.</p>
                 @endif
 
                 @if (extension_loaded('openssl'))
